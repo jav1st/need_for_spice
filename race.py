@@ -1,10 +1,7 @@
 from garage import Garage
 from car import Car
 
-
-
-
-if __name__ =='__main__':
+if __name__ == '__main__':
     car = Car()
     garage = Garage()
 

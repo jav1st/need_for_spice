@@ -1,11 +1,7 @@
-
-
-
-
 class Garage:
     '''Здесь стоит авто'''
 
-    def action(self, car):
+    def Action(self, car):
         while True:
             answ = int(input('Ваши действия?'
                              f'\nВаш баланс- {car.money} монет'
@@ -35,7 +31,7 @@ class Garage:
                                 return
                             else:
                                 print('Не хватает денег')
-                    if car.engine <= 6 and car.engine >= 5:
+                    if 6 >= car.engine >= 5:
                         answ = str(input('Стоимость улучшения 75 монет, берёте? Да\нет\n> ')).lower()
                         if car.money == 0:
                             print('У вас недостаточно денег!')
@@ -47,7 +43,7 @@ class Garage:
                                 return
                             else:
                                 print('Не хватает денег')
-                    if car.engine <= 10 and car.engine >= 6:
+                    if 10 >= car.engine >= 6:
                         answ = str(input('Стоимость улучшения 125 монет, берёте? Да\нет\n> ')).lower()
                         if car.money == 0:
                             print('У вас недостаточно денег!')

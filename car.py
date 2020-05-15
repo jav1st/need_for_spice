@@ -3,8 +3,7 @@
 
 
 class Car:
-    '''car'''
-
+    """car"""
     def __init__(self):
         self.engine = 1
         self.wheels = 1
