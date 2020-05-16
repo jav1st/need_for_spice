@@ -1,7 +1,7 @@
 class Garage:
     '''Здесь стоит авто'''
 
-    def Action(self, car):
+    def action(self, car):
         while True:
             answ = int(input('Ваши действия?'
                              f'\nВаш баланс- {car.money} монет'
